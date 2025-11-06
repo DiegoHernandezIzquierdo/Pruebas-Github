@@ -14,3 +14,6 @@ jobs:
         - name: Mostrar fecha
           run:
                 date
+        - name: Mostrar versopn java
+          run:
+                java -version
