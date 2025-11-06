@@ -11,4 +11,6 @@ jobs:
         - name: Mostrar mensaje
           run:
                 echo "Hola"
+        - name: Mostrar fecha
+          run:
                 date
