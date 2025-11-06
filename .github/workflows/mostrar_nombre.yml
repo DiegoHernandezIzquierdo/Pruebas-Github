@@ -2,11 +2,12 @@ name: Prueba de mensaje github actions
 
 on:
     push:
-        branches: [main]
+        branches: [ main ]
+        
 jobs:
     build:
         runs-on: ubuntu-latest
         steps:
-            - name: Mostrar mensaje
-            run:
+        - name: Mostrar mensaje
+          run:
                 echo "Hola"
